@@ -1,12 +1,14 @@
--- Problem: Laptop vs Mobile Viewership
--- Platform: DataLemur
--- Company: NY Times
--- Difficulty: Easy
--- Link: https://datalemur.com/questions/laptop-mobile-viewership
--- Date: 2026-05-11
+/*
+Problem: Laptop vs Mobile Viewership
+Platform: DataLemur
+Company: NY Times
+Difficulty: Easy
+Link: https://datalemur.com/questions/laptop-mobile-viewership
+Date Solved: 2026-05-11
+*/
 
--- Problem: Calculate total viewership for laptops and mobile devices
--- Mobile = tablet + phone combined
+-- Calculate total viewership by device type
+-- Mobile viewership includes tablet + phone
 
 SELECT 
     COUNT(CASE WHEN device_type = 'laptop' THEN 1 END) AS laptop_views,
