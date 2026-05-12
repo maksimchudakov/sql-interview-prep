@@ -1,6 +1,7 @@
-# 🧠 SQL Mastery
+# 🧠 SQL Interview Prep
 
-Daily SQL problem solving using LeetCode and DataLemur — organized by difficulty to prepare for Data Analyst interviews.
+A curated collection of SQL interview problems solved from LeetCode and DataLemur.
+Focused on analytical querying, joins, aggregations, window functions, and real-world business logic.
 
 ## 📂 Structure
 sql-mastery/
