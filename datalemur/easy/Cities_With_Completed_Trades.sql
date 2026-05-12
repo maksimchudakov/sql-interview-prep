@@ -1,8 +1,9 @@
 /*
 Problem: Top 3 Cities by Completed Trades
-Platform: (e.g. LeetCode / DataLemur style)
+Platform: DataLemur style
+Company: Robinhood
 Difficulty: Easy
-Tables: trades, users
+Link: https://datalemur.com/questions/completed-trades
 */
 
 -- Write a query to retrieve the top three cities that have the highest number
