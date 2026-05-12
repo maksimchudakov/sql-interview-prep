@@ -5,7 +5,7 @@ Company: NY Times
 Difficulty: Easy
 Link: https://datalemur.com/questions/laptop-mobile-viewership
 */
-1
+
 -- Calculate total viewership by device type
 -- Mobile viewership includes tablet + phone
 
