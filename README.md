@@ -4,7 +4,7 @@ A curated collection of SQL interview problems solved from LeetCode and DataLemu
 Focused on analytical querying, joins, aggregations, window functions, and real-world business logic.
 
 ## 📂 Structure
-sql-mastery/123
+sql-mastery/
 
 ```
 
