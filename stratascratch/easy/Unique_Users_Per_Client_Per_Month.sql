@@ -2,7 +2,7 @@
 Problem: Unique Users Per Client Per Month
 Platform: StrataScratch
 Problem ID: 2024
-Company: Apple
+Company: Apple + 2 more
 Difficulty: Easy
 Link: https://platform.stratascratch.com/coding/2024-unique-users-per-client-per-month
 */
