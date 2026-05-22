@@ -2,7 +2,7 @@
 Problem: Customer Details
 Platform: StrataScratch
 Problem ID: 9891
-Company: Apple sd
+Company: Apple
 Difficulty: Easy
 Link: https://platform.stratascratch.com/coding/9891-customer-details
 */
