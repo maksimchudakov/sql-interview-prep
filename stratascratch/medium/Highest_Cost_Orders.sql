@@ -2,7 +2,7 @@
 Problem: Highest Cost Orders
 Platform: StrataScratch
 Problem ID: 9915
-Company: Shopify + 1 more
+Company: Shopify
 Difficulty: Medium
 Link: https://platform.stratascratch.com/coding/9915-highest-cost-orders
 */
