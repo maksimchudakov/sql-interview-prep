@@ -2,7 +2,7 @@
 Problem: Average Salaries
 Platform: StrataScratch
 Problem ID: 9917
-Company: Glassdoor + 1 more
+Company: Glassdoor
 Difficulty: Easy
 Link: https://platform.stratascratch.com/coding/9917-average-salaries
 */
