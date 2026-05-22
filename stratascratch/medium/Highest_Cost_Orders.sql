@@ -13,21 +13,19 @@ Link: https://platform.stratascratch.com/coding/9915-highest-cost-orders
 -- Return all customers tied for the highest on the same date
 
 WITH daily_costs AS (
-
-select 
+SELECT 
     c.first_name,
     o.order_date,
     SUM(o.total_order_cost) AS daily_total
-from customers c 
-    join orders o 
+FROM customers c 
+    JOIN orders o 
         ON c.id = o.cust_id
 WHERE order_date BETWEEN '2019-02-01' AND '2019-05-01'
 GROUP BY c.first_name, o.order_date
 ORDER BY o.order_date
 )
-
 SELECT first_name, order_date, daily_total
-from(
+FROM(
     SELECT*,
     RANK() OVER(PARTITION BY order_date ORDER BY daily_total DESC)AS rnk
     FROM daily_costs
