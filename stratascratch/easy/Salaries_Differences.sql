@@ -2,7 +2,7 @@
 Problem: Salaries Differences
 Platform: StrataScratch
 Problem ID: 10308
-Company: LinkedIn + 1 more
+Company: LinkedIn
 Difficulty: Easy
 Link: https://platform.stratascratch.com/coding/10308-salaries-differences
 */
