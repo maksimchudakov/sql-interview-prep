@@ -1,8 +1,8 @@
 # 🧠 SQL Mastery
 
-A curated collection of SQL interview problems solved from **LeetCode**, **StrataScratch**, and **DataLemur**.  
-Focused on analytical querying, joins, aggregations, window functions, and real-world business logic.
+Systematic SQL interview preparation solving real problems from **LeetCode**, **DataLemur**, and **StrataScratch** — the same platforms used by top tech companies to screen Data Analyst candidates.
 
+Each solution includes problem context, approach explanation, and clean formatted SQL — built to reinforce understanding, not just pass tests.
 ---
 
 ## 📂 Repository Structure
