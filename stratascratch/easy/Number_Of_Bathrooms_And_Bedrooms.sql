@@ -10,6 +10,5 @@ Link: https://platform.stratascratch.com/coding/9622-number-of-bathrooms-and-bed
 SELECT city, property_type,
     AVG(bathrooms) AS avg_bathrooms,
     AVG(bedrooms) AS avg_bedrooms
-
 FROM airbnb_search_details
 GROUP BY city, property_type;
