@@ -25,7 +25,7 @@ ORDER BY o.order_date
 SELECT first_name, order_date, daily_total
 FROM (
     SELECT*,
-    RANK() OVER(PARTITION BY order_date ORDER BY daily_total DESC)AS rnk
+    RANK() OVER(PARTITION BY order_date ORDER BY daily_total DESC) AS rnk
     FROM daily_costs
     ) ranked_table
 WHERE rnk = 1;
