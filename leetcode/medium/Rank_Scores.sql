@@ -10,6 +10,5 @@ Link: https://leetcode.com/problems/rank-scores/
 -- Using DENSE_RANK to avoid gaps in ranking when scores are tied
 
 SELECT score,
-    DENSE_RANK() OVER (ORDER BY score DESC) AS "rank"
-FROM Scores
-ORDER BY score DESC;
+    DENSE_RANK() OVER (ORDER BY score DESC) AS rank
+FROM Scores;
