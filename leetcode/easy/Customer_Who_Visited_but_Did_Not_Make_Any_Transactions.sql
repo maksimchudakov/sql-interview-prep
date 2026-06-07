@@ -10,7 +10,8 @@ Link: https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-tr
 -- LEFT JOIN to keep all visits including those with no transactions
 -- Filter WHERE transaction_id IS NULL to isolate visits with no transactions
 
-SELECT v.customer_id, COUNT(*) as count_no_trans
+SELECT v.customer_id,
+      COUNT(*) AS count_no_trans
 FROM Visits v
 LEFT JOIN Transactions t
 ON v.visit_id = t.visit_id
