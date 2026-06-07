@@ -10,7 +10,7 @@ Link: https://leetcode.com/problems/find-users-with-high-token-usage/
 -- AND at least one prompt with tokens greater than their own average
 -- Using MAX(tokens) > AVG(tokens) to check if any prompt exceeds the average
 
-SELECT user_id, COUNT(prompt) as prompt_count, ROUND(AVG(tokens),2) as avg_tokens
+SELECT user_id, COUNT(prompt) AS prompt_count, ROUND(AVG(tokens),2) AS avg_tokens
 FROM prompts
 GROUP BY user_id
 HAVING COUNT(prompt) >= 3 and MAX(tokens) > AVG(tokens)
