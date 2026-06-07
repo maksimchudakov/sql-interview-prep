@@ -11,7 +11,7 @@ Link: https://leetcode.com/problems/the-latest-login-in-2020/
 -- Users with no 2020 logins are automatically excluded by the WHERE clause
 
 
-SELECT user_id, MAX(time_stamp) as last_stamp
+SELECT user_id, MAX(time_stamp) AS last_stamp
 FROM Logins 
 WHERE EXTRACT(YEAR FROM time_stamp) = 2020
 GROUP BY user_id;
