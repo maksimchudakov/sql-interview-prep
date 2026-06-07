@@ -10,7 +10,7 @@ Link: https://datalemur.com/questions/patient-support-analysis
 -- Inner query groups by policy_holder_id and filters those with 3+ calls
 -- Outer query counts how many such policy holders exist
 
-SELECT  COUNT(*) as policy_holder_count
+SELECT  COUNT(*) AS policy_holder_count
 FROM (
     SELECT policy_holder_id
     FROM callers
