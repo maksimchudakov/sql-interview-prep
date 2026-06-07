@@ -10,7 +10,7 @@ Link: https://leetcode.com/problems/the-number-of-employees-which-report-to-each
 -- Self JOIN to match employees with their managers
 -- COUNT direct reports and ROUND average age to nearest integer
 
-SELECT e.employee_id, e.name, COUNT(e.employee_id) as reports_count, ROUND(AVG(m.age)) as average_age
+SELECT e.employee_id, e.name, COUNT(e.employee_id) AS reports_count, ROUND(AVG(m.age)) AS average_age
 FROM Employees e
 JOIN Employees m
   ON m.reports_to = e.employee_id
