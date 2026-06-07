@@ -10,7 +10,7 @@ Link: https://leetcode.com/problems/top-travellers/
 -- LEFT JOIN to include users with no rides (distance = 0)
 -- COALESCE to handle NULL values when user has no rides
 
-SELECT u.name, coalesce (SUM(r.distance),0) as travelled_distance 
+SELECT u.name, coalesce (SUM(r.distance),0) AS travelled_distance 
 FROM Users u
 LEFT JOIN Rides r
 ON u.id = r.user_id
